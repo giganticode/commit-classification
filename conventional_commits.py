@@ -8,7 +8,7 @@ import pandas as pd
 
 from configuration import DATA_PATH
 from language_utils import  regex_to_big_query, generate_bq_function, match, SCHEMA_NAME, print_logic_to_bq
-from model_evaluation import classifiy_commits_df, evaluate_performance
+#from model_evaluation import classifiy_commits_df, evaluate_performance
 
 cc_adaptive_terms = ['feat' # Feature
                         , 'build'

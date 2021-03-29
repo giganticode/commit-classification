@@ -20,12 +20,12 @@ import pandas as pd
 
 from configuration import DATA_PATH
 from conventional_commits import build_cc_corrective_regex
-from labeling_util import get_false_positives, get_false_negatives
+#from labeling_util import get_false_positives, get_false_negatives
 
 from language_utils import file_scheme, term_seperator, build_sepereted_term, negation_terms, modals\
     , regex_to_big_query, generate_bq_function, match, SCHEMA_NAME, documentation_entities, prefective_entities\
     , static_analyzers, NEAR_ENOUGH, software_entities, code_review_fixes, normalize
-from model_evaluation import classifiy_commits_df, evaluate_performance
+#from model_evaluation import classifiy_commits_df, evaluate_performance
 
 # TODO - use split to find related tokens
 #  https://stackoverflow.com/questions/27060396/bigquery-split-returns-only-one-value/27158310
